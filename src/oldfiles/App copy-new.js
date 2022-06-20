@@ -4,12 +4,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 // importing custom components
-import Header from './components/header';
-import FunctionMainContent from './components/functionmaincontent';
-import ClassMainContent from './components/classmaincontent';
-import Footer from './components/footer';
 import Home from './components/home';
-
 
 // console.log(React.version);
 
@@ -18,11 +13,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home pageTitle = {"Home Page"} />} />
-          <Route path="/header" element={<Header />} />
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/header" element={<Header />} />
           <Route path="/classmaincontent" element={<ClassMainContent pageTitle = {"Class Component Header"} numTopics = {5} />} />
           <Route path="/functionmaincontent" element={<FunctionMainContent pageTitle = {"Function Component Header"} numTopics = {10} />} />
-          <Route path="/footer" element={<Footer />} />
+          <Route path="/footer" element={<Footer />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

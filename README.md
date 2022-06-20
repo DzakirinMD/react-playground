@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+====================================================
+
+Simple [ReactJs](https://reactjs.org/) app for learning.
+
+<h3> ReactJS Installation :</h3>
+1.   
+
+NPM package require for this project : 
+1. react-router-dom : `npm i react-router-dom` version 6
