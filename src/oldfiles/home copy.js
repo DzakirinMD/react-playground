@@ -1,12 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
+// importing custom components
+import Header from './header';
+import Menu from "./menu";
+import FunctionMainContent from './functionmaincontent';
+import ClassMainContent from './classmaincontent';
+import Footer from './footer';
+
+
 // props is used to access the data
-function LandingPage(props){
+function Home(props){
     return (
-        <maincontent>
-            <h2>{props.pageTitle}</h2>
-            <table>
+        <div>
+            <Header />
+            <Menu />
+            <hr />
+            <FunctionMainContent pageTitle = {"Class Component Header"} numTopics = {5} />
+            <hr />
+            <ClassMainContent pageTitle = {"Class Component Header"} numTopics = {10} />
+            <hr />
+            <Footer />
+
+            {/* <table>
                 <tr>
                     <th>Available URL </th>
                 </tr>
@@ -22,13 +38,13 @@ function LandingPage(props){
                 <tr>
                     <td><a href="http://localhost:3000/footer">Footer</a></td>
                 </tr>
-            </table> 
-        </maincontent>
+            </table>  */}
+        </div>
     )
 }
 
-LandingPage.propTypes = {
+Home.propTypes = {
     pageTitle: PropTypes.string
 }
 
-export default LandingPage
+export default Home
