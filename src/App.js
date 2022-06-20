@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // importing components
@@ -10,7 +9,9 @@ function App() {
   return (
     <div>
       <Header />
-      <MainContent />
+      {/* send data to MainContent */}
+      <MainContent pageTitle = {"Weight Loss Competition"} 
+      numTopics = {5} />
       <Footer />
     </div>
   );
