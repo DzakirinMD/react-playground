@@ -20,6 +20,9 @@ function Home(props){
                     <td><a href="http://localhost:3000/functionmaincontent">functionmaincontent</a></td>
                 </tr>
                 <tr>
+                    <td><a href="http://localhost:3000/apicalls">API Calls</a></td>
+                </tr>
+                <tr>
                     <td><a href="http://localhost:3000/footer">Footer</a></td>
                 </tr>
             </table> 

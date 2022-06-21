@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // This is a Class component
 class ClassMainContent extends Component {
 
-    constructor (props) {
+    constructor(props) {
         super(props);
         this.state = {
             title:this.props.pageTitle,
