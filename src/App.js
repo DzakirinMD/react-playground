@@ -9,7 +9,7 @@ import FunctionMainContent from './components/functionmaincontent';
 import ClassMainContent from './components/classmaincontent';
 import Footer from './components/footer';
 import Home from './components/home';
-
+import ApiCalls from './components/apicalls';
 
 // console.log(React.version);
 
@@ -22,6 +22,7 @@ function App() {
           <Route path="/header" element={<Header />} />
           <Route path="/classmaincontent" element={<ClassMainContent pageTitle = {"Class Component Header"} numTopics = {5} />} />
           <Route path="/functionmaincontent" element={<FunctionMainContent pageTitle = {"Function Component Header"} numTopics = {10} />} />
+          <Route path="/apicalls" element={<ApiCalls />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
