@@ -10,6 +10,7 @@ function FunctionMainContent(props){
             <h2>{props.pageTitle}</h2>
             This is the <b>Function</b> MainContent 
             <p>There are {count} topics.</p>
+            
             <button onClick={() => setCount(count+1)}>
                 Increase Topic Count</button>
         </maincontent>
