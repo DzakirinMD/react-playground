@@ -4,13 +4,13 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 // importing custom components
-import Header from './components/header';
-import FunctionMainContent from './components/functionmaincontent';
-import ClassMainContent from './components/classmaincontent';
-import Footer from './components/footer';
-import Home from './components/home';
-import ApiCalls from './components/apicalls';
-import StateEventHandler from './components/stateeventhandler';
+import Header from './components/Header';
+import FunctionMainContent from './components/FunctionMaincontent';
+import ClassMainContent from './components/ClassmainContent';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import ApiCalls from './components/APICalls';
+import StateEventHandler from './components/StateEventHandler';
 import LifecycleDidMountPhase from './components/lifecyclephases/LifecycleDidMountPhase';
 import LifecycleUnmountPhase from './components/lifecyclephases/LifecycleUnmountPhase';
 import LifecycleComponentDidUpdatePhase from './components/lifecyclephases/LifecycleComponentDidUpdatePhase';
