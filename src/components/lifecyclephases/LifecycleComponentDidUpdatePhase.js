@@ -23,7 +23,7 @@ class EvenNumber extends Component {
         console.log("2. shouldComponentUpdate", nextProps, nextState)
 
         // Do not call set state in this method
-        if (nextProps.number % 2 == 0) {
+        if (nextProps.number % 2 === 0) {
             console.log('shouldComponentUpdate returns true')
             return true;
         }
