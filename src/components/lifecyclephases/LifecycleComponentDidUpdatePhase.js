@@ -34,6 +34,11 @@ class EvenNumber extends Component {
 
     render() {
         console.log("3. render")
+        
+        // Line 39 - 41 is "Error boundaries part" please comment out if dont want react to recreate the component tree.
+        if (this.props.number > 15) {
+            throw Error('The number is greater than 15!')
+        }
 
         return (
            <div className="evennumber">{this.props.number}</div>
@@ -68,6 +73,13 @@ class LifecycleComponentDidUpdatePhase extends Component {
             }
         });
     }
+
+    // Line 78 - 82 is "Error boundaries part" please comment out if dont want react to recreate the component tree.
+    componentDidCatch(error, info) {
+        this.setState({
+          index: 0,
+        })
+     }  
 
     render() {
         var nextNumber = this.props.numbers[this.state.index];
