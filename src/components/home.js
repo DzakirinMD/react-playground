@@ -47,6 +47,22 @@ function Home(props){
                         <td>A component showing how lifecycle <b>componentDidUpdate()</b> work</td>
                     </tr>
                     <tr>
+                        <td><a href="http://localhost:3000/controlledcomponentssingleinput">ControlledComponentsSingleInput</a></td>
+                        <td>ControlledComponentsSingleInput</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://localhost:3000/multiplecomponentshotelbookingform">MultipleComponentsHotelBookingForm</a></td>
+                        <td>MultipleComponentsHotelBookingForm</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://localhost:3000/hotelbookingform">Full Form - Hotel Booking</a></td>
+                        <td>Full Hotel booking form with validation</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://localhost:3000/fileupload">FileUpload</a></td>
+                        <td>File Upload/File Input </td>
+                    </tr>
+                    <tr>
                         <td><a href="http://localhost:3000/footer">Footer</a></td>
                         <td>A footer component</td>
                     </tr>
