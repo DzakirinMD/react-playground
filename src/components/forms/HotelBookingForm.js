@@ -43,7 +43,7 @@ class HotelBookingForm extends Component {
         const name = event.target.name;
         var value = event.target.value;
 
-        if (name == 'nameValue') {
+        if (name === 'nameValue') {
             value = value.toUpperCase();
         }
 

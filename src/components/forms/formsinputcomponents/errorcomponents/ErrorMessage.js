@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// Stateless component
+
 class ErrorMessage extends Component {
     
     constructor(props) {
