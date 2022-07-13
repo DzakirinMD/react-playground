@@ -14,7 +14,10 @@ import StateEventHandler from './components/StateEventHandler';
 import LifecycleDidMountPhase from './components/lifecyclephases/LifecycleDidMountPhase';
 import LifecycleUnmountPhase from './components/lifecyclephases/LifecycleUnmountPhase';
 import LifecycleComponentDidUpdatePhase from './components/lifecyclephases/LifecycleComponentDidUpdatePhase';
-
+import ControlledComponentsSingleInput from './components/forms/ControlledComponentsSingleInput';
+import MultipleComponentsHotelBookingForm from './components/forms/MultipleComponentsHotelBookingForm';
+import HotelBookingForm from './components/forms/HotelBookingForm';
+import FileUpload from './components/forms/FileUpload';
 
 // console.log(React.version);
 
@@ -33,6 +36,10 @@ function App() {
           <Route path="/lifecycledidmountphase" element={<LifecycleDidMountPhase initialNames={['Zack', 'Halia']} />} />
           <Route path="/lifecycleunmountmountphase" element={<LifecycleUnmountPhase initialNames={['Ronald', 'Donald', 'Elise', 'Kim']} />} />
           <Route path="/lifecyclecomponentdidupdatephase" element={<LifecycleComponentDidUpdatePhase />} />
+          <Route path="/controlledcomponentssingleinput" element={<ControlledComponentsSingleInput />} />
+          <Route path="/multiplecomponentshotelbookingform" element={<MultipleComponentsHotelBookingForm />} />
+          <Route path="/hotelbookingform" element={<HotelBookingForm />} />
+          <Route path="/fileupload" element={<FileUpload />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
